@@ -76,7 +76,9 @@ vim.opt.confirm = true
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
-vim.keymap.set('i', 'jk', '<Esc>')
+vim.keymap.set('i', 'jk', '<Esc>', { desc = 'Exit insert mode' })
+vim.keymap.set('n', '<leader>ve', ':Vex<CR>', { desc = 'Open vertical explore in current directory using netrw' })
+vim.keymap.set('n', '<leader>he', ':Sex<CR>', { desc = 'Open horizontal explore in current directory using netrw' })
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
