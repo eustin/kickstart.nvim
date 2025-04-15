@@ -120,6 +120,7 @@ vim.keymap.set('n', '<leader>gb', ':Git blame<CR>', { desc = 'Git blame in verti
 vim.keymap.set('n', '<leader>gb', ':Git blame<CR>', { desc = 'Git blame in vertical split' })
 vim.keymap.set('n', '<leader>gl', ':Git log --oneline<CR>', { desc = 'Git log --oneline' })
 vim.keymap.set('n', '<leader>gd', ':Gvdiffsplit<CR>', { desc = 'Git diff with vertical split' })
+vim.keymap.set('n', '<leader>gp', ':Git push', { desc = 'Git push' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
