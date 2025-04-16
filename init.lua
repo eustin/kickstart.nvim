@@ -85,6 +85,10 @@ vim.opt.confirm = true
 vim.keymap.set('n', '<leader>ve', ':Vex<CR>', { desc = 'Open vertical explore in current directory using netrw' })
 vim.keymap.set('n', '<leader>he', ':Sex<CR>', { desc = 'Open horizontal explore in current directory using netrw' })
 
+vim.keymap.set('n', '<leader>vs', '<C-w><C-v>', { desc = 'Split current window vertically' })
+vim.keymap.set('n', '<leader>hs', '<C-w>s', { desc = 'Split current window horizontally' })
+vim.keymap.set('n', '<leader>cs', '<C-w>c', { desc = 'Close split' })
+
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
