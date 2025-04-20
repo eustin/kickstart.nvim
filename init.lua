@@ -113,8 +113,8 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
--- Git fugitive remaps
-vim.keymap.set('n', '<leader>g', ':Git<CR>', { desc = 'Git status' })
+-- Git fugitive keymaps
+vim.keymap.set('n', '<leader>gs', ':Git<CR>', { desc = 'Git status' })
 vim.keymap.set('n', '<leader>gb', ':Git blame<CR>', { desc = 'Git blame in vertical split' })
 vim.keymap.set('n', '<leader>gb', ':Git blame<CR>', { desc = 'Git blame in vertical split' })
 vim.keymap.set('n', '<leader>gl', ':Git log --oneline<CR>', { desc = 'Git log --oneline' })
