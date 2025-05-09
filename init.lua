@@ -82,8 +82,9 @@ vim.opt.confirm = true
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
-vim.keymap.set('n', '<leader>ve', ':Vex<CR>', { desc = 'Open vertical explore in current directory using netrw' })
-vim.keymap.set('n', '<leader>he', ':Sex<CR>', { desc = 'Open horizontal explore in current directory using netrw' })
+vim.keymap.set('n', '<leader>e', ':Explore<CR>', { desc = "Explore the current file's directory using netrw" })
+vim.keymap.set('n', '<leader>ve', ':Vex<CR>', { desc = "Open vertical explore in current file's directory using netrw" })
+vim.keymap.set('n', '<leader>he', ':Sex<CR>', { desc = "Open horizontal explore in current file's directory using netrw" })
 
 vim.keymap.set('n', '<leader>vs', '<C-w><C-v>', { desc = 'Split current window vertically' })
 vim.keymap.set('n', '<leader>hs', '<C-w>s', { desc = 'Split current window horizontally' })
