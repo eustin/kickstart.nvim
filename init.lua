@@ -90,8 +90,8 @@ vim.keymap.set('n', '<leader>hs', '<C-w>s', { desc = 'Split current window horiz
 vim.keymap.set('n', '<leader>cs', '<C-w>c', { desc = 'Close split' })
 
 -- Quickfix lists
-vim.keymap.set('n', 'qn', ':cnext<CR>', { desc = 'Next item in quickfix list' })
-vim.keymap.set('n', 'qp', ':cprev<CR>', { desc = 'Previous item in quickfix list' })
+vim.keymap.set('n', '<leader>n', ':cnext<CR>', { desc = 'Next item in quickfix list' })
+vim.keymap.set('n', '<leader>p', ':cprev<CR>', { desc = 'Previous item in quickfix list' })
 
 -- Clear highlights on search when pressing <Esc> in normal mode
 --  See `:help hlsearch`
