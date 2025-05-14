@@ -18,6 +18,7 @@ vim.g.have_nerd_font = false
 vim.opt.number = true
 vim.opt.relativenumber = true
 
+-- Search
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
