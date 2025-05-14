@@ -9,6 +9,9 @@ vim.opt_global.shiftwidth = 4
 vim.opt_global.expandtab = true
 vim.opt_global.autoindent = true
 
+-- Indentation
+vim.opt.smartindent = true
+
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = false
 
