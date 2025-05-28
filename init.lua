@@ -394,6 +394,7 @@ require('lazy').setup {
       -- Enable the following language servers
       local servers = {
         clangd = {},
+        gopls = {},
         pyright = {},
         jdtls = {},
         jsonls = {},
@@ -563,6 +564,7 @@ require('lazy').setup {
         'bash',
         'c',
         'diff',
+        'go',
         'html',
         'lua',
         'luadoc',
