@@ -117,6 +117,8 @@ vim.keymap.set('n', '<leader>gl', ':Git log --oneline<CR>', { desc = 'Git log --
 vim.keymap.set('n', '<leader>gd', ':Gvdiffsplit<CR>', { desc = 'Git diff with vertical split' })
 vim.keymap.set('n', '<leader>gp', ':Git push<CR>', { desc = 'Git push' })
 
+vim.keymap.set('n', '<leader>cp', ':let @+ = expand("%") .. ":" .. line(".")<CR>', { desc = 'Yank relative file path with line number' })
+
 -- [[ Basic Autocommands ]]
 
 -- Highlight when yanking (copying) text
