@@ -147,6 +147,7 @@ vim.opt.rtp:prepend(lazypath)
 require('lazy').setup {
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
   'tpope/vim-fugitive',
+  'tpope/vim-surround',
 
   { -- Adds git related signs to the gutter, as well as utilities for managing changesspli
     'lewis6991/gitsigns.nvim',
