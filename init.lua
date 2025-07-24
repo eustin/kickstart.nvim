@@ -412,6 +412,7 @@ require('lazy').setup {
             },
           },
         },
+        terraformls = {}
       }
 
       -- Ensure the servers and tools above are installed
@@ -582,6 +583,7 @@ require('lazy').setup {
         'typescript',
         'java',
         'json',
+        'terraform'
       },
       -- Autoinstall languages that are not installed
       auto_install = true,
