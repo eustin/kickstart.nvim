@@ -3,11 +3,12 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
--- Tab sizes
+-- Tabs
 vim.opt_global.tabstop = 4
 vim.opt_global.shiftwidth = 4
 vim.opt_global.expandtab = true
 vim.opt_global.autoindent = true
+vim.opt_global.smarttab = true
 
 -- Indentation
 vim.opt.smartindent = true
@@ -397,8 +398,6 @@ require('lazy').setup {
 
       -- Enable the following language servers
       local servers = {
-        clangd = {},
-        gopls = {},
         pyright = {},
         jdtls = {},
         jsonls = {},
